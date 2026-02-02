@@ -1,0 +1,20 @@
+[package]
+name = "HotPotato"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hot_potato = "_"
+
+[dev-addresses]
+hot_potato = "0xC0DE"
+
+# Example deployment address:
+# hot_potato = "0x........." add an address for the proper compiling process
+
+[dependencies.CedraFramework]
+git = "https://github.com/cedra-labs/cedra-network.git"
+rev = "main"
+subdir = "cedra-move/framework/cedra-framework"
+
+[dev-dependencies]
